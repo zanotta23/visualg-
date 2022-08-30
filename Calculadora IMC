@@ -1,0 +1,13 @@
+algoritmo "calculadora imc"
+var
+ peso, altura, imc: real
+
+inicio
+escreval ("Por favor, informe seu peso: ")
+leia (peso)
+escreval ("Agora informe sua altura: ")
+leia (altura)
+
+imc <- peso / (altura*altura)
+escreval ("O IMC é: ", imc)
+fimalgoritmo
