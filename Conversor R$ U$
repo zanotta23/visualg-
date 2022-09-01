@@ -1,0 +1,9 @@
+algoritmo "conversor r$ u$"
+var
+ reais, dolares :real
+inicio
+ escreval ("Quantos reais eu tenho ? R$ ")
+ leia (reais)
+ dolares <- reais /5.25
+ escreval ("Posso ter U$", dolares )
+fimalgoritmo
