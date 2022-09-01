@@ -1,0 +1,9 @@
+algoritmo "semnome"
+var
+preco, imposto: real
+inicio
+escreva ("Qual é o preço do produto? U$ ")
+leia (preco)
+imposto <- ( preco * 60)/ 100
+escreval ("O imposto sera de U$ ", imposto: 5:2)
+fimalgoritmo
