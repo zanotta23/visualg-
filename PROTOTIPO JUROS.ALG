@@ -17,3 +17,4 @@ leia (parcela)
 valort <- (valcju / parcela )
 escreval ("O valor das parcelas ficaria :", valort)
 fimalgoritmo
+
