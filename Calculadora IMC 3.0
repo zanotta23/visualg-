@@ -1,0 +1,36 @@
+Algoritmo "IMC 3.0"
+Var
+   M, A, IMC: Real
+inicio
+   escreva(" Massa (KG): ")
+   leia(m)
+   escreva ("Altura (M): ")
+   leia (a)
+   IMC <- M / (A * A)
+   escreval ("IMC: ", IMC:5:2)
+   se (IMC < 17)entao
+      escreval("muito abaixo do peso")
+   senao
+        se (IMC > 17) E (IMC <= 18.5)ENTAO
+         escreval ("Abaixo do peso")
+        senao
+             se (IMC >= 18.5) E (IMC <= 25) ENTAO
+                escreval ("peso ideal")
+                senao
+                     se (IMC >= 25 ) E (IMC < 35) entao
+                        escreval ("sobrepeso")
+                        senao
+                             se (IMC >= 30 ) E (IMC < 35)ENTAO
+                                 escreval ("Obesidade")
+                              senao
+                                   se (IMC >= 35 ) E (IMC <=40)entao
+                                      escreval ("obesidade severa")
+                                   senao
+                                        escreval ("obesidade morbida]")
+                               fimse
+                          fimse
+                     fimse
+                fimse
+           fimse
+      fimse
+Fimalgoritmo
