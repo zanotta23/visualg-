@@ -1,0 +1,17 @@
+algoritmo "REPITA1.0"
+var
+ n, s: inteiro
+ resp: caractere
+inicio
+
+  s <- 0
+  repita
+     escreva ("Digite o Valor => " )
+     leia (n)
+     s <- s + n
+    escreva ("VOÇÊ DESEJA CONTINUAR {S/N} ")
+    LEIA (RESP)
+  ate (resp = "N")
+  escreval ("A soma dos valores foi", s)
+  ESCREVAL ("O maior número digitado É", S)
+fimalgoritmo
