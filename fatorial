@@ -1,0 +1,21 @@
+algoritmo "fatorial"
+var
+C, N, F: Inteiro
+R: caractere
+inicio
+Repita
+   escreval ("digite um número")
+   leia (n)
+   C <- N
+   F <- -1
+   repita
+      escreval (C, "X")
+       F <- F * C
+       C <- C - 1
+    ate (c < 1)
+    escreval ("O valor do fatorial de ", N, " É igual a", F)
+    escreva ("Quer continuar? {S/N}")
+    leia (r)
+    limpatela
+    ate (R  = "N")
+fimalgoritmo
