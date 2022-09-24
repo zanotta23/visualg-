@@ -1,0 +1,22 @@
+algoritmo "Números primos"
+var
+ C, N, Contidiv: INTEIRO
+inicio
+   C <- 1
+      Escreva("Digite um número ")
+      Leia (N)
+      repita
+      ESCREVAl ( c )
+      Se (N % C = 0) entao
+          Contidiv <- Contidiv + 1
+      fimse
+       c <- C + 1
+      até ( C > N )
+
+      Se (Contidiv > 2) entao
+          escreva(N, " NÃO É UM NÚMERO PRIMO! ")
+      Senao
+           escreva (N, " É UM NÚMERO PRIMO!")
+
+      fimse
+fimalgoritmo
