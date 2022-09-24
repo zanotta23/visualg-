@@ -3,10 +3,11 @@ var
  Cont, N, R: inteiro
 inicio
    Cont <- 1
-   N <- 8
+   Escreval ("Quer ver a tabuada de qual número")
+   leia (n)
    repita
        R <-  n * cont
        escreval ( N , " X", Cont, " = ", R)
        Cont <- ( Cont + 1 )
        ate ( Cont > 10)
-fimalgorit
+fimalgoritmo
