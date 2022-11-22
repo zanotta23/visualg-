@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detran SC</title>
+</head>
+<body>
+     <h1>Sistema de Multas</h1>
+     velocidade do Carro:<input type="number" name="txtvel" id="velocidade"> Km/h
+    <input type="button" value="verificar" onclick="calcular()">
+    <div id="res"></div>
+
+    
+    <script>        
+        function calcular() {
+            var txtv = window.document.getElementById('velocidade')
+            var res = window.document.getElementById('res')
+            var vel = Number(txtv.value)
+            res.innerHTML = `Sua velocidade atual é de ${vel}`
+
+        }
+
+    </script>
+</body>
+</html>
